@@ -5,6 +5,8 @@ import { FileOpener } from "@ionic-native/file-opener";
 
 import { pdfbase64 } from './pdf'
 
+import './Home.css';
+
 
 
 export default function Home() {
@@ -43,9 +45,9 @@ export default function Home() {
   }
   return (
     <IonContent>
-
-      <IonButton onClick={() => saveAndOpenPdf(pdfbase64, 'brandbook.pdf')} />
-
+      <div className='div-center'>
+        <IonButton onClick={() => saveAndOpenPdf(pdfbase64, 'brandbook.pdf')} />
+      </div>
     </IonContent>
   )
 }
