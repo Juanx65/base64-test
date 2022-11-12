@@ -4,8 +4,6 @@
   "private": true,
   "dependencies": {
     "@awesome-cordova-plugins/core": "^5.45.0",
-    "@awesome-cordova-plugins/file": "^5.45.0",
-    "@awesome-cordova-plugins/file-opener": "^5.45.0",
     "@capacitor/android": "4.2.0",
     "@capacitor/app": "4.0.1",
     "@capacitor/core": "4.2.0",
@@ -26,8 +24,6 @@
     "@types/react-dom": "^18.0.6",
     "@types/react-router": "^5.1.11",
     "@types/react-router-dom": "^5.1.7",
-    "cordova-plugin-file": "^7.0.0",
-    "cordova-plugin-file-opener2": "^3.0.5",
     "ionicons": "^6.0.3",
     "jetifier": "^2.0.0",
     "react": "^18.2.0",
